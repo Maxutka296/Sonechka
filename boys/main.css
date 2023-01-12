@@ -121,6 +121,23 @@ body {
     padding-top: 50px;
 }
 
+.arrow {
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 4px;
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+    margin-bottom: -44px;
+    
+}
+
+.lleft {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
 .header {
     position: relative;
     padding: 0 12px 3px 0;
@@ -230,8 +247,9 @@ body {
 	box-shadow: 1px 1px 15px rgb(0 0 0); */
 	position: relative;
 	margin-top: 60px;
-	margin-left: 500px;
+	margin-left: 570px;
 	box-shadow: 1px 1px 15px rgb(255 255 255);
+
 }
 
 .r3 {
