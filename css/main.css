@@ -1,0 +1,243 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+    
+}
+
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+.header {
+    padding-top: 46px;
+    background-color:#f1f1f1;
+    background-image: url(/img/bg.jpg); 
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+   
+
+}
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    color: black;
+
+}
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fda300;
+    border-radius: 50%;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.nav-button {
+    display: none;
+
+}
+.nav-link {
+   color: #000;
+}
+.nav-link.active {
+    color: #606060;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 10px;
+}
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+.header-content p {
+    line-height: 3;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: large;
+    font-size: 150%;
+}
+
+.services {
+    padding: 90px 0;
+}
+
+.kep {
+    margin-top: -16px;
+}
+
+.tt {
+    margin-top: -10px;
+}
+
+.services-row {
+   display: flex;
+   column-gap: 30px;
+
+}
+
+.title-ser {
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 150px;
+}
+
+.services-card {
+    flex: 1 1 0;
+    max-width: 315px;
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.service-card p {
+    line-height: 2;
+}
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #f1f1f1; 
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+    background-image: url(/img/bg1.jpg)
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+    max-width: 480px;
+}
+
+.contacts-button {
+   margin-bottom: 80px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 30px;
+    background-color: #070707;
+    font-size: 18px;
+    color: white;
+    transition: background-color 0.2s ease-in,top 0.2s ease-in;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #5a5959;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282;
+}
+
+.telegramim_button,
+.telegramim_pulse,
+.telegramim_shadow
+ {
+    font-size:56px;
+    width:302px;
+    background:#27A5E7;
+    box-shadow:1px 1px 5px #27A5E7;
+    color:#FFFFFF;
+    border-radius:54px;
+    margin-left: 436px;
+}
