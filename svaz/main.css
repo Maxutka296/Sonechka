@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-   background: linear-gradient(#fe2706, #17a5f7) fixed;
+   /* background: linear-gradient(#fe2706, #17a5f7) fixed;*/
+   background: #bc987e;
+   background: linear-gradient(#9A5044, #E8D9A9) fixed;
 }
 
 .header {
@@ -35,6 +37,28 @@ body {
     width:300px;
     height:300px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
     margin: 200px auto;
 
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 4px;
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
