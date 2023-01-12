@@ -1,0 +1,129 @@
+@media (max-width: 700px) {
+
+    body {
+        background: #bc987e;
+        height: 250%;
+    }
+
+    .imghp {
+        margin-top: -805px;
+    }
+
+    .six {
+        margin-top: 90px;
+    }
+    
+    .five {
+        margin-top: 351px;
+
+    }
+
+    .four {
+        margin-top: 92px;
+    }
+
+    .three {
+        margin-left: 18px;
+        margin-top: 74px;
+        
+    }
+
+    .two {
+        margin-left: 186px;
+        margin-top: 43px;
+
+    } 
+
+    .one {
+        margin-left: 18px;
+        margin-top: -33px;
+    }
+
+    .r1 {
+        width: 60%;
+        margin-left: 100px;
+        margin-top: 130px;
+    }
+
+    .r3 {
+        margin-left: 75px;
+        width: 70%;
+        margin-top: 31px;
+    }
+
+    .r2 {
+        margin-top: 46px;
+        margin-left: 110px;
+    }
+    
+    .l1 {
+        width: 60%;
+        margin-left: 100px;
+        margin-top: 180px;
+    }
+
+    .l2 {
+        margin-left: 75px;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .l3 {
+        margin-left: 98px;
+        width: 60%;
+        margin-top: 31px;
+    }
+}
+
+
+@media (max-width: 384px) {
+    .one {
+        margin-top: 62px;
+    }
+
+    .two {
+        margin-left: 80px;
+    }
+
+    .five {
+        margin-left: 80px;
+    }
+
+    .r2 {
+        margin-left: 60px;
+        width: 70%;
+    }
+
+    .r3 {
+        width: 60%;
+    }
+
+    .r1 {
+        margin-left: 75px;
+        margin-top: 0px;
+    }
+
+    .l1 {
+        margin-left: 90px;
+        margin-top: 5px;
+    }
+
+    .l3 {
+        margin-left: 90px;
+    }
+    
+    .g1 {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .g2 {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .g3 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
